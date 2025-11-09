@@ -1,0 +1,48 @@
+.main {
+    height: 42.75rem;
+    background-color: var(--background-color);
+
+
+    & > div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        max-width: 952px;
+        margin-inline: auto;
+        padding-top: 5rem;
+
+        img {
+            margin-bottom: 1.5rem;
+        }
+
+        h1 {
+            font: var(--H1);
+            color: var(--text-color-primary);
+        }
+
+        p {
+            font: var(--paragraph);
+            color: var(--text-color-secondary);
+            font-size: 2rem;
+        }
+
+        & > div {
+            display: flex;
+            margin-top: 3rem;
+            gap: 1rem;
+            a {
+                height: 3.5rem;
+                border: 1.5px solid var(--text-color-primary);
+                padding: 1rem 2rem;
+                border-radius: .5rem;
+                color: var(--text-color-primary);
+                &:last-child {
+                    background-color: var(--text-color-primary);
+                    color: var(--background-color);
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,7 @@
+@import url(global.css);
+@import url(sections/main.css);
+@import url(header.css);
+
+body {
+    font-family: var(--font-family);
+}
